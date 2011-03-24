@@ -8,6 +8,9 @@ BuildRoot: /var/tmp/%{name}-%{version}
 Source: http://downloads.sourceforge.net/project/pcapsipdump/pcapsipdump/0.1.4/%{name}-%{version}.tar.gz
 Patch0:  pcapsipdump.h.patch
 
+BuildRequires: libpcap-devel
+Requires: libpcap
+
 %description
 pcapsipdump is a tool for dumping SIP sessions (+RTP
 traffic, if available) to disk in a fashion similar
