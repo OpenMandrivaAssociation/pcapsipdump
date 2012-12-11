@@ -41,3 +41,12 @@ chkconfig pcapsipdump --add
 %attr(0700,root,root) %dir    /var/spool/pcapsipdump
 %attr(0755,root,root)       /etc/rc.d/init.d/pcapsipdump
 %attr(0755,root,root)      /usr/sbin/pcapsipdump
+
+
+%changelog
+* Thu Mar 24 2011 zamir <zamir@mandriva.org> 0.1.4-0mdv2011.0
++ Revision: 648338
+- fix spec
+- first build
+- create pcapsipdump
+
