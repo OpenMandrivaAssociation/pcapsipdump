@@ -1,7 +1,7 @@
 Summary: PCAP SIP Dump tool
 Name: pcapsipdump
 Version: 0.1.4
-Release: %mkrel 0
+Release: 1
 License: GPL v2
 Group: System/Servers
 BuildRoot: /var/tmp/%{name}-%{version}
