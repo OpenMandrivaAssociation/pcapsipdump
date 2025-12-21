@@ -8,6 +8,7 @@ BuildRoot: /var/tmp/%{name}-%{version}
 Source: http://downloads.sourceforge.net/project/pcapsipdump/pcapsipdump/0.1.4/%{name}-%{version}.tar.gz
 Patch0:  pcapsipdump.h.patch
 
+BuildRequires:	make
 BuildRequires: libpcap-devel
 Requires: libpcap
 
