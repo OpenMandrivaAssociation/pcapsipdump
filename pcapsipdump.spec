@@ -1,11 +1,11 @@
 Summary: PCAP SIP Dump tool
 Name: pcapsipdump
-Version: 0.1.4
+Version: 0.2
 Release: 1
 License: GPL v2
 Group: System/Servers
 BuildRoot: /var/tmp/%{name}-%{version}
-Source: http://downloads.sourceforge.net/project/pcapsipdump/pcapsipdump/0.1.4/%{name}-%{version}.tar.gz
+Source: http://downloads.sourceforge.net/project/pcapsipdump/pcapsipdump/0.2/%{name}-%{version}.tar.gz
 Patch0:  pcapsipdump.h.patch
 
 BuildRequires:	make
@@ -21,7 +21,7 @@ concurrent SIP sessions).
 
 %prep
 %setup -q
-%patch0 -p0
+%patch -P0 -p0
 
 %build
 make
